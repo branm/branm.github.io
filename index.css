@@ -21,13 +21,15 @@ body {
 }
 
 .container {
-  height: 95%;
+  background-color: #121a21;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
   width: 100%;
-  background-color: #312140;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  text-align: center;
 }
 
 .title {
@@ -47,32 +49,4 @@ body {
   height: 50%;
 }
 
-.about {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff3e1;
-  margin-right: 5px;
-  margin-left: 5px;
-}
 
-.innerBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.aboutTitle {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 2.5vw;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-
-.aboutText {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 2.0vw;
-  margin-left: 20px;
-}
